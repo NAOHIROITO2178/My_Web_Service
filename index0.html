@@ -3,29 +3,34 @@
 
   <head>
     <meta charset = "UTF-8">
-    <title>テック起業家志望トークチャンネル</title>
-    <link rel = "stylesheet" href = "css/style.css">
+    <title>TECH-COMMUNITY</title>
+    <link rel = "stylesheet" href = "css/comunity.css">
   </head>
   <body>
     
-    <header>テック起業家志望トークチャンネル</header>
-    <p>このチャンネルでは、未来のGAFAを作り出したい、シリコンバレーのような会社を立ち上げたい、テクノロジーで世界を変えたい、そのような夢を持った人々が、ビジネスのアイデアを出しあったり、プログラミングの勉強などで挫折したときなどに励ましあったり、成功の夢を語らったりする、ワクワクするチャンネルです！さあ、あなたも今すぐ入会して、テクノロジーで成功をつかみとろう！</p>
+    <header>TECH-COMMUNITY</header>
+    <p id = first>このコミュニティでは、ITやテクノロジー、インターネットが世界を圧巻している現代、その技術に興味のあるものや、<br>その技術に詳しいもの、その技術で世界を変えてみたい、というような想いを持つギークな人々が集まり、楽しくトークをしあうコミュニティです。<br>さあ、あなたもIT仲間に出会いにいこう！</p>
+
     
-    <form action="/form.php" method = "post">
-      <div>
-        <label for="name">名前</label>
-        <input typ="text" id="name" name = "name">
-      </div>
-      <div>
-        <label for="email">メールアドレス</label>
-        <input type="mail" id="email" name ="email">
-      </div>
-      <div>
-        <label for="message">内容</label>
-        <textarea id ="message" name="message"></textarea>
-      </div>
-      <input type = "submit" value="送信する">
-    </form>
+      <form action="community.php" method = "get">
+          <label id = username>USER-NAME<br>
+            <input typ="text" name = "username">
+          </label><br>
+          <br>
+
+          <label id = mailAd>e-mail<br>
+             <input type="e-mail" name ="e-mail">
+          </label><br>
+          <br>
+          
+          <label id = pass>PASSWORD<br>
+            <input type = "password" name = "password">
+          </label><br>
+          <br>
+         
+        <input type = "submit" value="Login"><br>
+      </form>
+    <a href = "new-menber.php"><p id = new>新規会員登録はこちらから！</p></a>
 
   </body>
 </html>
