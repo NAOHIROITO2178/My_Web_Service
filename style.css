@@ -1,5 +1,5 @@
 header{
-  font-size: 60px;
+  font-size: 80px;
   color:rgb(255, 0, 0);
   text-align: center;
   font-weight: bold;
@@ -7,11 +7,17 @@ header{
   box-shadow: 0 6px 0 rgb(85, 194, 85);
 }
 
-body > p{
+body  {
   color:red;
+  font-weight: bold;
+  text-align: center;
+}
+
+.new{
   font-weight: bold;
 }
 
-body{
-  background-color:#efefef;
+input {
+  height:25px;
+  width:280px;
 }
