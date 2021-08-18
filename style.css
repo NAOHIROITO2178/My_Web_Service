@@ -1,0 +1,17 @@
+header{
+  font-size: 60px;
+  color:rgb(255, 0, 0);
+  text-align: center;
+  font-weight: bold;
+  background-color: rgb(0, 255, 0);
+  box-shadow: 0 6px 0 rgb(85, 194, 85);
+}
+
+body > p{
+  color:red;
+  font-weight: bold;
+}
+
+body{
+  background-color:#efefef;
+}
