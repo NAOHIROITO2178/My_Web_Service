@@ -5,7 +5,7 @@ CREATE TABLE TECH-COMMUNITY(
    password VARCHAR(); 
 );
 
-INSERT INTO TECH-COMMUNITY(username,e-mail,password);
+INSERT INTO TECH-COMMUNITY(username,e-mail,password) VALUES;
 (NAOHIRO,e-mail1,1234);
 (NAO,e-mail2,3456);
 (NARO,e-mail3,5678);
